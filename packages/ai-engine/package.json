@@ -1,0 +1,22 @@
+{
+  "name": "@stylemuse/ai-engine",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b -w",
+    "clean": "rimraf dist *.tsbuildinfo",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stylemuse/types": "workspace:*",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@stylemuse/config": "workspace:*",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}

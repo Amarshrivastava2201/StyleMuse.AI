@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "StyleMuse",
+    "slug": "stylemuse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#fdfdfc"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stylemuse.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#fdfdfc"
+      },
+      "package": "com.stylemuse.app"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "stylemuse"
+  }
+}
